@@ -33,6 +33,10 @@ module.exports = {
         new ModuleFederationPlugin(
             {
                 name: 'shared_header',
+                filename:'remoteEntry.js',
+                exposes:{
+                    './HeaderComponent':'./src/components/HeaderComponent'
+                },
                 shared: {
                     react: {
                         requiredVersion: '^19.1.1',
