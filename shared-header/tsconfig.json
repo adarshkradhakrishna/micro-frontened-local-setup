@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "module": "ESNext",
+        "target": "es6",
+        "lib": [
+            "DOM",
+            "ES2017"
+        ],
+        "moduleResolution": "node",
+        "jsx": "react-jsx",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+    },
+    "include": ["src"], 
+}
