@@ -1,7 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { ModuleFederationPlugin } = require('webpack').container
-const SHARED_HEADER_REMOTE_PATH = process.env.SHARED_HEADER_REMOTE_PATH ?? 'http://localhost:3002/'
+const SHARED_HEADER_REMOTE_PATH = process.env.SHARED_HEADER_REMOTE_PATH ?? 'http://localhost:3002/remoteEntry.js'
 module.exports = {
     entry: './src/index.tsx',
     mode: "development",

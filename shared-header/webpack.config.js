@@ -41,12 +41,12 @@ module.exports = {
                     react: {
                         requiredVersion: '^19.1.1',
                         singleton: true,
-                        eager:true
+                        eager:false
                     },
                     'react-dom': {
                         requiredVersion: '^19.1.1',
                         singleton: true,
-                        eager:true
+                        eager:false
                     }
                 },
             }
@@ -55,7 +55,6 @@ module.exports = {
             template: './public/index.html',
             filename: "index.html"
         }),
-
     ],
 
 
